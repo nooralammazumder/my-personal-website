@@ -1,3 +1,99 @@
 body{
-    background-color: aquamarine;
+    margin: 0px;
+font-family: 'Tilt Neon', cursive;
 }
+p{
+    color: dimgrey;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.pink-highlight{
+    font-size: 30px;
+    color: rgb(233, 16, 52);
+}
+.first-banner .half-width{
+    background-image: url(personal-website/header-bg.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 450px;
+    padding-bottom: 130px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(232, 10, 221),rgb(98, 35, 224));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
+.button{
+    display: inline-block;
+    background-color: rgb(213, 60, 30);
+    color: aliceblue;
+    padding: 30px;
+    height: 50px;
+    width: 400px;
+    text-decoration: none;
+    border-radius: 7px 10px;
+}
+.box{
+  width: 450px;
+  margin: auto;
+  padding: 50px;
+  align-items: center;
+}
+.second-banner{
+    background-image: url(personal-website/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.third-banner{
+    background-image: url(personal-website/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.frth-banner{
+    background-image: url(personal-website/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.middle{
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 100px;
+  }
+  .column {
+    flex: 10%;
+    padding-right: 40px;
+    padding: 5px;
+    padding-left: 40px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .middle{
+    margin: 0px;
+  }
+  footer{
+    text-align: center;
+  }
+ b{
+    font-size: 20px;
+ }
